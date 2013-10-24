@@ -1,0 +1,28 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "pg-sugar",
+  "description": "Sugar on top of pg",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-pg-sugar.git"
+  },
+  "main": "lib/pg-sugar.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "~2.0.0"
+  }
+}
